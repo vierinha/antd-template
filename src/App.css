@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 14px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.navicons {
+  height: 32px;
+  margin: 20px 16px 20px 6px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.navsearch {
+  margin: 16px 12px 16px 6px;
+  width: 220px;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #343a40;
+}
+
+.ant-layout-sider-children{
+  background: #212529;
+}
+
+.ant-menu{
+  background: #212529;
+}
